@@ -24,7 +24,7 @@ header {
 #burger-menu {
     display: none;
     float: right;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: black;
     border: 0px;
     margin: 10px;
 }
@@ -70,7 +70,7 @@ nav {
 nav a {
     text-decoration: underline;
     text-decoration-thickness: 3px;
-    text-decoration-color: #FB4B4E;
+    text-decoration-color: #FB373A;
     color: #F5E6E8;
 }
 
@@ -93,7 +93,7 @@ nav :hover {
 
 main {
     padding: 2%;
-    background-color: #70A9A1;
+    background-color: #5C9990;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 10px;
@@ -116,7 +116,7 @@ main {
 }
 
 .card-title {
-    background-color: #FB4B4E;
+    background-color: #FB373A;
     padding: 10px;
     margin: 0;
     text-align: center;
@@ -134,7 +134,7 @@ main {
 }
 
 li::marker {
-    color: #70A9A1;
+    color: #5C9990;
 }
 
 #img-me {
@@ -164,7 +164,7 @@ li::marker {
 }
 
 #filter-buttons-nav {
-    background-color: #70A9A1;
+    background-color: #5C9990;
     justify-content: center;
     gap: 1%;
 }
@@ -228,8 +228,8 @@ li::marker {
 }
 
 .completed {
-    color: white;
-    background-color: #FB4B4E;
+    color: #F5E6E8;
+    background-color: #FB373A;
 }
 
 @media screen and (max-width: 575px) {
@@ -248,7 +248,7 @@ li::marker {
     }
 
     .card {
-        border: 1px solid rgb(219, 219, 219);
+        border: 1px solid #F5E6E8;
         margin: 10px;
     }
 }
