@@ -229,7 +229,7 @@ li::marker {
 
 .completed {
     color: white;
-    background-color: rgb(201, 45, 71);
+    background-color: #FB4B4E;
 }
 
 @media screen and (max-width: 575px) {
