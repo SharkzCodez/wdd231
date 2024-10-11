@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <meta name="author" content="Zsa Zsa LeBlanc">
+   <meta name="description" content="WDD231 Chamber of Commerce for Alice Texas by Zsa Zsa LeBlanc">
+
+   <meta property="og:title" content="Alice Chamber of Commerce Directory">
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://sharkzcodez.github.io/wdd231/chamber/directory.html">
+   <meta property="og:image" content="https://sharkzcodez.github.io/wdd231/chamber/images/alicecity.webp">
+
+   <link rel="stylesheet" href="styles/base.css">
+   <link rel="icon" href="alicefavicon.ico">
+   <script src="scripts/directory.js" defer></script>
+   <script src="scripts/getdate.js" defer></script>
+   <script src="index.html" defer></script>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+   
+   <title>Directory | Chamber of Commerce | Alice</title>
+</head>
+<body>
+   <header>
+    <button id="burger-menu"><img src="images/hamburger.webp" alt="menu" width="20"></button>
+       <section id="title"><img src="images/alicewatertower.webp" alt="Alice water tower" id="watertower-img">
+           <section id="header-title">
+               <h1 id="titleText">Alice</h1>
+               <h4>Chamber of Commerce</h4>
+           </section>
+       </section>
+       <section>
+           <nav>
+               <a href="../index.html"><h1>Home</h1></a>
+               <a href="./directory.html"><h1>Directory</h1></a>
+               <a href="./join.html"><h1>Join</h1></a>
+               <a href="./discover.html"><h1>Discover</h1></a>
+           </nav>
+       </section>
+       
+   </header>
+   <main>
+    <section id="drop-down"></section>
+    
+    <a href=""><h4>Join us today</h4></a>
+    <h1 id="main-title">Home</h1>
+    <img id="hero-img" src="images/alicecity.webp" alt="Image of Alice">
+    <section id="event-weather-section">
+        <section class="cards" id="events">
+            <h3 id="card-title">Events</h3>
+            <h4>Event 1 - m/d</h4>
+            <p>[event description here]</p>
+            <h4>Event 2 - m/d</h4>
+            <p>[event description here]</p>
+
+        </section>
+
+        <section class="cards" id="weather-card">
+            <h4>Weather</h4>
+            <p id="temperature"></p>
+            <img id="weather-icon" src="" alt="">
+            <p id="description"></p>
+            <p id="sunrise"></p>
+            <p id="sunset"></p>
+        </section>
+        <section class="cards" id="forecast-card">
+            <h4>Forecast</h4>
+            <p id="day1"></p>
+            <p id="day2"></p>
+            <p id="day3"></p>
+        </section>
+    </section>
+
+    <section id="business-cards">
+    </section>
+
+   </main>
+   <footer>
+       <section id="footer-sec">
+           <p>@<span id="currentyear"></span> Zsa Zsa LeBlanc</p>
+           </section>
+           <p id="lastModified"></p>
+   </footer>
+
+</body>
+
+</html>
