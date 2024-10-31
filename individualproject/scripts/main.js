@@ -19,3 +19,16 @@ document.addEventListener("DOMContentLoaded", () => {
   
     menu.textContent = isExpanded ? "☰" : "✖";
   }
+
+const cYearElement = document.getElementById("currentyear"); 
+const lastModElement = document.getElementById("lastModified");
+
+if (cYearElement) {
+    const currentYear = new Date().getFullYear();
+    cYearElement.textContent = currentYear;
+}
+
+if (lastModElement) {
+    const modified = new Date(document.lastModified);
+    lastModElement.textContent = "Last Modified: " + modified;
+}
